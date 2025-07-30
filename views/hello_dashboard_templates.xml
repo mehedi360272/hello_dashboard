@@ -1,0 +1,9 @@
+<odoo>
+    <template id="hello_dashboard_template">
+        <t t-name="hello_dashboard.hello_dashboard_template">
+            <div class="container mt32 o_hello_dashboard">
+                <h1>Hello World</h1>
+            </div>
+        </t>
+    </template>
+</odoo>

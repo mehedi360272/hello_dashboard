@@ -1,0 +1,7 @@
+<templates xml:space="preserve">
+    <t t-name="hello_dashboard.HelloDashboard">
+        <div class="o_hello_dashboard">
+            <h2>Hello World from Dashboard Component!</h2>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,9 @@
+<odoo>
+    <record id="action_hello_dashboard" model="ir.actions.client">
+        <field name="name">Hello Dashboard</field>
+        <field name="tag">hello_dashboard_tag</field>
+    </record>
+
+    <menuitem id="menu_hello_dashboard_root" name="Hello Dashboard"/>
+    <menuitem id="menu_hello_dashboard" name="Dashboard" parent="menu_hello_dashboard_root" action="action_hello_dashboard"/>
+</odoo>
