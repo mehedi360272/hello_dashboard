@@ -19,8 +19,18 @@ class HelloDashboard extends Component {
         });
     }
 
-    goToProductList() {
-        this.action.doAction('product.product_template_action_all');
+    async viewAll() {
+        await this.action.doAction({
+            type: "ir.actions.act_window",
+            name: "Consumable Products",
+            res_model: "product.template",
+            views: [
+               [false, 'list'],
+               [false, 'form']
+             ],
+            domain: [["type", "=", "consu"]],
+            target: "current",
+        });
     }
 }
 

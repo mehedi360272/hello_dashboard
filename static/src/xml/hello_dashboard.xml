@@ -78,7 +78,7 @@
                             <h3> <t t-esc="state.product_count"/></h3>
                             <p> Product</p>
                         </div>
-                        <a href="javascript:void(0)" t-on-click="goToProductList" class="card-box-footer">
+                        <a href="javascript:void(0)" t-on-click="viewAll" class="card-box-footer">
                             View all <i class="fa fa-arrow-circle-right"/>
                         </a>
                     </div>
